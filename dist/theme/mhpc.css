@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400;1,800&display=swap");
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -11,19 +11,19 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #191919;
-  --main-font: Fira Sans, sans-serif;
+  --background-color: #1F1F1F;
+  --main-font: Raleway, sans-serif;
   --main-font-size: 42px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Fira Sans, sans-serif;
-  --heading-color: #fff;
+  --heading-font: Raleway, sans-serif;
+  --heading-color: #41ff1f;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
   --heading-text-transform: uppercase;
   --heading-text-shadow: none;
-  --heading-font-weight: 600;
+  --heading-font-weight: 800;
   --heading1-text-shadow: none;
   --heading1-size: 2.5em;
   --heading2-size: 1.6em;
@@ -36,11 +36,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --selection-color: #fff; }
 
 .reveal-viewport {
-  background: #191919;
-  background-color: #191919; }
+  background: #1F1F1F;
+  background-color: #1F1F1F; }
 
 .reveal {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -70,9 +70,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 600;
+  color: #41ff1f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
@@ -282,4 +282,4 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #191919; } }
+    background-color: #1F1F1F; } }
